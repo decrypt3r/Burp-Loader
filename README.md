@@ -41,8 +41,8 @@
 	**1. Place all files in 1 folder**
 		For Example lets take as --> C:\Users\Decrypt3r\Desktop\burp\
 	----------------------------------------------
-	**2 Run this command for Linux in Terminal. Suppose Your files are in /home/kali/Desktop/burp/**
-		java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:/home/kali/Desktop/burp/loader.jar -noverify -jar /home/kali/Desktop/burp/burpsuite_pro_v2022.1.jar &
+	**2 Run this command for Linux in Terminal. Suppose Your files are in /home/kali/Desktop/burp/ and you are in that directory**
+		java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:loader.jar -noverify -jar burpsuite_pro_v2022.1.jar &
 	----------------------------------------------
 	**3. Use keygen.jar to generate the License key**
 		java -jar keygen.jar
